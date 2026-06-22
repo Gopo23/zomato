@@ -3,7 +3,7 @@
 // Automatically switch between local development and production Railway API
 const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 // IMPORTANT: Once you deploy to Railway, replace the placeholder below with your actual Railway domain!
-const PRODUCTION_API_URL = 'https://your-railway-app.up.railway.app/api';
+const PRODUCTION_API_URL = 'https://zomato-production-b200.up.railway.app/api';
 
 const API_BASE_URL = isLocalhost ? 'http://127.0.0.1:8000/api' : PRODUCTION_API_URL;
 
