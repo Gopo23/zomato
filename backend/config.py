@@ -21,7 +21,7 @@ class Settings(BaseSettings):
 
     # ── Data ──────────────────────────────────────────────────
     dataset_cache_path: str = os.path.join(
-        os.path.dirname(__file__), "data", "zomato_dataset.csv"
+        os.path.dirname(__file__), "data", "zomato_cleaned.csv"
     )
 
     # ── API ───────────────────────────────────────────────────

@@ -29,6 +29,7 @@ desktop.ini
 
 # ─── Data (cached datasets) ──────────────────
 backend/data/*.csv
+!backend/data/zomato_cleaned.csv
 backend/data/*.parquet
 
 # ─── Node (if frontend tooling is added) ─────
