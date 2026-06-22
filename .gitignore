@@ -1,0 +1,36 @@
+# ─── Python ───────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ─── Environment ──────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS ───────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Data (cached datasets) ──────────────────
+backend/data/*.csv
+backend/data/*.parquet
+
+# ─── Node (if frontend tooling is added) ─────
+node_modules/
+package-lock.json
